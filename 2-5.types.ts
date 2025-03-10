@@ -22,7 +22,7 @@ const mySize1 = mySizes[1] // number
 const mySize2 = mySizes[2] // string
 
 mySizes[1] = '35' // Type 'string' is not assignable to type 'number'
-mySizes[2] = 'XXL' // 아이템 재할당 가능
+mySizes[2] = 'XXL' // 아이템 재할당 가능, 기존 튜플 개념과 다른 부분
 
 // 객체
 const product: {

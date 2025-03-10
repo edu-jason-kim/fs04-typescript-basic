@@ -6,7 +6,7 @@ product = 123
 const localStorageData = JSON.parse('')
 
 // JSON.parse 메서드의 반환타입 강제 후 product2에 할당
-const product2 = JSON.parse('product2') as { id: string }
+const product2 = JSON.parse('product2') as { id: string } 
 
 // 프로덕트 타입에 any 타입의 값을 할당
 const product3: { id: string } = JSON.parse('product3')
