@@ -25,3 +25,5 @@ const product: Product = {
   createdAt: new Date(),
   updatedAt: new Date(),
 }
+
+export {}
